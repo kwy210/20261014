@@ -1,0 +1,89 @@
+b {
+    color: #0f0;
+}
+
+p {
+    color: #00f;
+}
+
+
+/*
+선택자 1. 전체 선택자******
+*/
+
+* {
+    font-weight: bold;
+}
+
+
+/*
+선택자 2.태그 선택자****** 예: div { } 를 하면 div 태그를 선택한거임
+*/
+
+div {
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+}
+
+
+/*
+선택자 3.클레스 선택자****** <태크 안에서 class="이름">
+그리고 css 에서 선택을 할려면 무조껀 이름 앞에 . 을 붙여야 한다
+예 : .이름 { } 
+
+html에서 클래스 이름은 1개이상일 수있다. 그리고,
+클래스 이름은 중복 사용 가능하다
+
+또한 하나의 엘레먼트가 여러가지 이름을 가질수 있다
+ <p class="p1 p11"> 는 p1 과 p11 의 2가지 이름을 가진거다
+ 이름을 여러개 해주는 법은 띄어쓰기 (공백)을 주고 쓰면 된다
+*/
+
+.p1 {
+    color: #0f0;
+    font-weight: bold;
+    background-color: black;
+}
+
+.p111 {
+    color: #0ff;
+
+}
+
+.p3 {
+    font-size: 3em; /*100% 가 1em 3em 은 300%다
+                    그렇다면 .5는 50% 배율이다(0.5 이지만
+                    .5 라고 해도 된다)*/
+}
+.p2 {
+    font-size: .5em;}
+
+
+.p1 {
+        color: #f00;
+        font-size: 3em;
+    }
+
+    /*
+    선택자 4. ID(아이디) 선택자 ******  예 :  id="pp1"
+    id 를 선택 할려면 # 을 쓴다 예 : #pp1{ }
+    html 에서 ID 이름은 무조껀 1개 이어야 한다
+    그리고, ID 이름은 절대 중복 사용 X 심각한 문제 발생
+    
+    */
+  
+    #pp1 {font-size: 2em;
+    color: black;
+    background-color: #ccc;
+}
+
+/* 
+선택자 4. 속성 선택자 **** 
+html tag의 속성을 이용해서 element을 선택하는 선택자
+*/
+
+input[type="text"] {
+    width: 200px;
+    color: #f00;
+    font-size: 2em;
+}

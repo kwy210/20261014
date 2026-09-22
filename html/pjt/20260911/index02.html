@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+   <title>INDEX02</title>
+</head>
+<body>
+    <!-- img 이미지 출력 태그 (이미지 출력 태그끼리는 순서는 상관없다) src 는 넣는
+      사진에 이름 (같은 파일안에 있다면 이름만 적어도 된다) alt는 그림에 대한 설명을 넣어주
+      는 문구다 (손상되었을떄 무슨 사진이였는지 알수있음)
+      -->
+    <img src="img/bird02.jpg" width="200px" alt="새 사진">
+    <br>
+    <img src="../bird02.jpg" width="100px" alt="새 사진">
+    <br>
+    <img src="../../../../coconut.jpg" width="100px" alt="새 사진">
+    <!-- 같은 폴더 안에 없다면 (현재 경로) ./ 를 같이 붙여줘야 한다 
+                            (상위 경로)../ -> ../../ 면 2단계 위 파일을 검색한다
+                            (루트 경로)  /  -->
+    <img src="https://i.namu.wiki/i/ki1Yh2VpxsSmKCQrtANDimlzinZlh9JGo24P9BIRK3jee-StGKFoG8eJFOQT6lKGUqALMVvzynep5lart8CPXYSTiXDA2rbjYsocZ-1Bu53xVrKrIIE2TeWq5Tsp5sbMFRkrFqIRz3bmOlKWGg_IgQ.webp"                        
+    <!--인터넷에 있는 주소를 넣어도 가능하다-->
+
+    <img 
+         title="네이버베너" width="400px" src="https://ssl.pstatic.net/melona/libs/1575/1575649/e4b4d82bed485f73a193_20260805064447830_3.jpg">
+
+         <!-- 영상 출력 태그 , 유튜브 영상 출력 -->
+
+     <iframe width="560" height="315" src="https://www.youtube.com/watch?v=bMhDJ0S0OBA&list=RDbMhDJ0S0OBA&start_radio=1"
+</body>
+</html>

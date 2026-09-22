@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#warp {
+    width: 800px;
+    border: 1px solid #dadada;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 80px 50px;
+    box-shadow: 3px 3px 3px rgba(200,200,200, .3);
+    
+}
+
+#warp div.to {
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+#warp div.head {
+    width: 90%;
+    text-align: center;
+    border-bottom: double #dadada;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+#warp div.body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#warp div.body p {
+    margin: 20px 0;
+}
+
+#warp div.from {
+    font-style: italic;
+    text-align: right;
+    margin-top: 50px;
+}
